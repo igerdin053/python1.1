@@ -242,6 +242,7 @@ if __name__ == '__main__':
         victory_for(board, 'x')
         if winner == True: break
 
+abcdefg
 
 
 
