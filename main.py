@@ -9,7 +9,7 @@ def print_hi(name):
 
 if __name__ == '__main__':
     print_hi('Professor! here is programming assignment 5, using secrets module.')
-    print(secure_rand_num)
+    print("Here is a secure random number!", secure_rand_num)
 
 
 
