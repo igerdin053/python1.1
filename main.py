@@ -14,9 +14,11 @@ if __name__ == '__main__':
     userNAME = re.findall(r"'USERNAME': '[a-zA-Z0-9]*'", osENV)
     systemName = re.findall(r"system='[^']*'", platformUNAME)
     nodeName = re.findall(r"COMPUTERNAME'[^']*'[^']*'", osENV)
-    print(systemName)
-    print(nodeName)
-    print(userNAME)
-    print(osENV)
+    print("The system name is:", systemName)
+    print("The computer name is:", nodeName)
+    print("Currently logged on username is:", userNAME)
+    print("Output that Computer name and username were obtained from:\n", osENV)
+    print("Output that the system name was obtained from:\n", platformUNAME)
+
 
 
